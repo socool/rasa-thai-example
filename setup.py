@@ -22,6 +22,7 @@ dev_packages = [
     "pymdown-extensions>=7.1",
     "flake8-print==4.0.0",
     "rich==10.2.2",
+    "sanic==21.9.3",
 ]
 
 thai_deps = [
