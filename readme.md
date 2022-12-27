@@ -213,3 +213,10 @@ mkdocs gh-deploy
 ```
 
 This will deploy a new version to the `docs` branch, which is picked up by GitHub pages. 
+
+### Install
+
+install spacy
+```
+pip install spacy
+```

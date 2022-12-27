@@ -31,7 +31,6 @@ jobs:
         pip install pytest pyvi sanic==21.9.3
     - name: Run Tests Non FastText Featurizer Tests
       run: |
-        pytest tests/test_featurizers/test_gensim_featurizer.py
         pytest tests/test_featurizers/test_bpemb_featurizer.py
     - name: Install Thai Tokenizer and Run Tests
       run: |
